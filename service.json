@@ -1,0 +1,24 @@
+{
+  "name": "Liver Segmentation",
+  "version": "0.1.0",
+  "keywords": [
+    "registration",
+    "longitudinal"
+  ],
+  "shortdesc": "Liver segmentation service (cnn)",
+  "longdesc": "Given a target image, perform segmentation and write map labels to the target image",
+  "tags": [
+    {
+      "name": "Target Image",
+      "type": "MainImage",
+      "hint": "The anatomical image onto which you want to warp the segmentation",
+      "required": true
+    },
+    {
+      "name": "Source Image",
+      "type": "OverlayImage",
+      "hint": "The anatomical image from which you want to warp the segmentation",
+      "required": true
+    }
+  ]
+}
