@@ -1,6 +1,6 @@
 {
-  "name": "Liver Segmentation",
-  "version": "0.1.0",
+  "name": "LiverSegmentation",
+  "version": "0.1.1",
   "keywords": [
     "registration",
     "longitudinal"
